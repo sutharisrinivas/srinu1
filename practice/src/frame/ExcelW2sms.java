@@ -17,7 +17,7 @@ public class ExcelW2sms
 	  
 		//create object for file
 		File f=new File("Book1.xls");
-		//open .xls for reading
+		//open .xls for 
 		Workbook rwb=Workbook.getWorkbook(f);
 		Sheet rsh=rwb.getSheet(0);
 		int nour=rsh.getRows();
