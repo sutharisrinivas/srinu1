@@ -17,7 +17,7 @@ public class ExcelW2sms
 	  
 		//create object for file
 		File f=new File("Book1.xls");
-		//open .xls for 
+		//open .xls for reading
 		Workbook rwb=Workbook.getWorkbook(f);
 		Sheet rsh=rwb.getSheet(0);
 		int nour=rsh.getRows();
@@ -25,7 +25,7 @@ public class ExcelW2sms
 		WritableWorkbook wwb=Workbook.createWorkbook(f,rwb);
 		WritableSheet wsh=wwb.getSheet(0);
 		
-		
+		//for loop
 		for(int i=1;i<nour;i++)
 		{
 			int x=Integer.parseInt(rsh.getCell(0, i).getContents());
