@@ -15,7 +15,7 @@ public class ARD {
 
 	public static void main(String[] args) throws Exception
 	{
-		//details of AVD and calc app
+		//details of AVD and calculator
 				DesiredCapabilities dc=new DesiredCapabilities();
 				dc.setCapability(CapabilityType.BROWSER_NAME,"");
 				dc.setCapability("deviceName", "5da184c3");
